@@ -28,6 +28,73 @@
   color: #61dafb;
 }
 
+.homecontainer{
+  background-image: url("../src/images/hero_1.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+.nav_content {
+  list-style: none;
+  padding: 15px;
+  display: flex;
+
+}
+.nav_container {
+  position: sticky;
+  top: 0;
+  gap: 50px;
+}
+.li,
+.a {
+  padding: 5px;
+  color: white;
+
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  /* margin-left: 10px; */
+  /* display: inline-block; */
+
+}
+.signin{
+  margin-left: 800px;
+}
+.b{
+
+  color: black;
+}
+.home_header{
+  text-align: center;
+  margin: 150px 200px;
+  padding: 0px 220px;
+
+
+}
+.homepara1{
+  font-size: 60px;
+  font-weight: 900;
+  color: black;
+  opacity: 0.7;
+  line-height: 1;
+}
+.para2{
+  color: #0f0f0f;
+  font-size: 20px;
+}
+.register{
+  border: none;
+  color: #fff;
+  background-color: #f37121;
+  border-color: #f37121;
+  border-radius: 0;
+  padding: 14px 20px;
+}
+.register:hover{
+  background-color: #f34121;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
