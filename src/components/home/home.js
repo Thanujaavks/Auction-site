@@ -1,6 +1,14 @@
 import React from 'react';
 import logo from '../../images/logo.png'
 import product1 from '../../images/product_1.jpg'
+import product2 from '../../images/product_2.jpg'
+import product3 from '../../images/product_3.jpg'
+import product4 from '../../images/product_4.jpg'
+import product5 from '../../images/product_5.jpg'
+import product6 from '../../images/product_6.jpg'
+import product7 from '../../images/product_7.jpg'
+import product8 from '../../images/product_8.jpg'
+
 
 function Home(props) {
     return (
@@ -45,7 +53,7 @@ function Home(props) {
                             <strong className={"price"}>$95</strong>
                             <img src={product1} className="card-img-top product" alt="..."/>
                                 <div className="card-body">
-                                    <h5 className="card-title">Pinky Shoes</h5>
+                                    <h5 className="card-title">Pinky <br/>Shoes</h5>
                                     <div className={"name"}>
                                     <span>Shoes</span>
                                     <span>4 bids</span>
@@ -58,10 +66,76 @@ function Home(props) {
                     </div>
                     <div className="col product_card">
                         <div className="card h-100 product-content">
-                            <strong className={"price"}>$95</strong>
-                            <img src={product1} className="card-img-top product" alt="..."/>
+                            <strong className={"price"}>$30</strong>
+                            <img src={product2} className="card-img-top product" alt="..."/>
                             <div className="card-body">
-                                <h5 className="card-title">Pinky Shoes</h5>
+                                <h5 className="card-title">Eye Glass Eye Protector</h5>
+                                <div className={"name"}>
+                                    <span>Eye Glasses</span>
+                                    <span>10 bids</span>
+                                </div>
+                                <a href="item-single.html" className="btn btn-bid">Submit a Bid</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="col product_card">
+                        <div className="card h-100 product-content">
+                            <strong className={"price"}>$195</strong>
+                            <img src={product3} className="card-img-top product" alt="..."/>
+                            <div className="card-body">
+                                <h5 className="card-title">Eye Glass Eye Protector</h5>
+                                <div className={"name"}>
+                                    <span>Clothing</span>
+                                    <span>24 bids</span>
+                                </div>
+                                <a href="item-single.html" className="btn btn-bid">Submit a Bid</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="col product_card">
+                        <div className="card h-100 product-content">
+                            <strong className={"price"}>$1,995</strong>
+                            <img src={product4} className="card-img-top product" alt="..."/>
+                            <div className="card-body">
+                                <h5 className="card-title">MacBook 15-Inch Laptop</h5>
+                                <div className={"name"}>
+                                    <span>Laptop</span>
+                                    <span>4 bids</span>
+                                </div>
+                                <a href="item-single.html" className="btn btn-bid">Submit a Bid</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div className="row row-cols-1 row-cols-md-4 g-4">
+                    <div className="col product_card">
+                        <div className="card h-100 product-content">
+                            <strong className={"price"}>$95</strong>
+                            <img src={product5} className="card-img-top product" alt="..."/>
+                            <div className="card-body">
+                                <h5 className="card-title">iPad</h5>
+                                <div className={"name"}>
+                                    <span>Electronics</span>
+                                    <span>11 bids</span>
+                                </div>
+                                <a href="item-single.html" className="btn btn-bid">Submit a Bid</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="col product_card">
+                        <div className="card h-100 product-content">
+                            <strong className={"price"}>$30</strong>
+                            <img src={product6} className="card-img-top product" alt="..."/>
+                            <div className="card-body">
+                                <h5 className="card-title">Shoe Sneakers</h5>
                                 <div className={"name"}>
                                     <span>Shoes</span>
                                     <span>4 bids</span>
@@ -74,13 +148,13 @@ function Home(props) {
                     </div>
                     <div className="col product_card">
                         <div className="card h-100 product-content">
-                            <strong className={"price"}>$95</strong>
-                            <img src={product1} className="card-img-top product" alt="..."/>
+                            <strong className={"price"}>$195</strong>
+                            <img src={product7} className="card-img-top product" alt="..."/>
                             <div className="card-body">
-                                <h5 className="card-title">Pinky Shoes</h5>
+                                <h5 className="card-title">iMac</h5>
                                 <div className={"name"}>
-                                    <span>Shoes</span>
-                                    <span>4 bids</span>
+                                    <span>Electronics</span>
+                                    <span>224 bids</span>
                                 </div>
                                 <a href="item-single.html" className="btn btn-bid">Submit a Bid</a>
 
@@ -90,13 +164,13 @@ function Home(props) {
                     </div>
                     <div className="col product_card">
                         <div className="card h-100 product-content">
-                            <strong className={"price"}>$95</strong>
-                            <img src={product1} className="card-img-top product" alt="..."/>
+                            <strong className={"price"}>$1,995</strong>
+                            <img src={product8} className="card-img-top product" alt="..."/>
                             <div className="card-body">
-                                <h5 className="card-title">Pinky Shoes</h5>
+                                <h5 className="card-title">iWatch</h5>
                                 <div className={"name"}>
-                                    <span>Shoes</span>
-                                    <span>4 bids</span>
+                                    <span>Electronics</span>
+                                    <span>194 bids</span>
                                 </div>
                                 <a href="item-single.html" className="btn btn-bid">Submit a Bid</a>
 
