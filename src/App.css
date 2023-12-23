@@ -46,7 +46,7 @@
 }
 .li,
 .a {
-  padding: 5px;
+  padding: 10px 15px;
   color: black;
   opacity: 0.8;
 
@@ -59,8 +59,12 @@
   /* display: inline-block; */
 
 }
+.nav_logo{
+
+  margin-right: 50px;
+}
 .signin{
-  margin-left: 800px;
+  margin-left: 500px;
 }
 .b{
 
