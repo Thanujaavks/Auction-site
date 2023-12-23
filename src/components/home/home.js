@@ -8,6 +8,8 @@ import product5 from '../../images/product_5.jpg'
 import product6 from '../../images/product_6.jpg'
 import product7 from '../../images/product_7.jpg'
 import product8 from '../../images/product_8.jpg'
+import Buy from "../buy/buy";
+import buy from "../buy/buy";
 
 
 function Home(props) {
@@ -23,7 +25,7 @@ function Home(props) {
                         <img src={logo}/>
                     </div>
                     <li className="li"><a href="home.html" className="a">Home</a></li>
-                    <li className="li"><a href="about.html" className="a">Buy</a></li>
+                    <li className="li"><a href={Buy} className="a">Buy</a></li>
                     <li className="li"><a href="about.html" className="a">Sell</a></li>
                     <li className="li"><a href="about.html" className="a">Services</a></li>
                     <li className="li"><a href="service.html" className="a"> About</a></li>
