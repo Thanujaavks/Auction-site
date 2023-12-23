@@ -47,7 +47,8 @@
 .li,
 .a {
   padding: 5px;
-  color: white;
+  color: black;
+  opacity: 0.8;
 
   font-size: 16px;
 
@@ -93,6 +94,69 @@
 }
 .register:hover{
   background-color: #f34121;
+}
+.auction-product{
+  padding: 90px;
+}
+.auction h5{
+  color: #f37121;
+  line-height: 1;
+}
+.auction h2 span{
+  font-weight: 500;
+}
+.row{
+  margin-top: 30px;
+}
+.price{
+  position: absolute;
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  border-radius: 50%;
+  background-color: #f37121;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+.product{
+  max-width: 90% !important;
+  height: auto;
+  margin: 20px;
+}
+.product-content{
+border: none;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.card-title{
+  text-align: left;
+  font-size: 28px;
+}
+.card-body{
+  margin: 0px 30px;
+}
+.card-body .name span{
+  line-height: 1.7;
+  color: #999999;
+  font-weight: 300;
+  font-size: 20px;
+}
+.name{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btn-bid{
+  padding: 7px 42px;
+  text-transform: none;
+  border-radius: 0;
+  background: #f8f9fa;
+  color: #000;
+  font-size: 18px;
+  margin: 10px 0px;
+  display: flex;
 }
 
 @keyframes App-logo-spin {
