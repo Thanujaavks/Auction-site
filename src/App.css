@@ -163,6 +163,18 @@ border: none;
   margin: 10px 0px;
   display: flex;
 }
+.how{
+  padding: 0px 90px;
+}
+.content{
+  margin: 110px 0px;
+}
+.card-body .how-work span{
+  text-align: left;
+  line-height: 1.2;
+  font-size: 16px;
+  margin-top: 10px;
+}
 
 @keyframes App-logo-spin {
   from {

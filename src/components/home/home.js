@@ -182,6 +182,66 @@ function Home(props) {
                     </div>
                 </div>
             </div>
+            <div className={"how"}>
+                <div className={"auction"}>
+                    <h5>How?</h5>
+                    <h2>How <span>It works</span></h2>
+                </div>
+                <div className="row row-cols-1 row-cols-md-4 g-4">
+                    <div className="col product_card">
+                        <div className="card h-100 product-content">
+                            <strong className={"price"}></strong>
+                            <div className="card-body content">
+                                <h5 className="card-title">Register</h5>
+                                <div className={"how-work name"}>
+                                    <span>Sign up easily to access our auction platform and start your bidding journey.</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="col product_card">
+                        <div className="card h-100 product-content">
+                            <strong className={"price"}></strong>
+                            <div className="card-body content">
+                                <h5 className="card-title">Buy or Bid</h5>
+                                <div className={"how-work name"}>
+                                    <span>Explore the items available for auction and decide whether to make a direct purchase or place a bid.</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="col product_card">
+                        <div className="card h-100 product-content">
+                            <strong className={"price"}></strong>
+                            <div className="card-body content">
+                                <h5 className="card-title">Submit a bid</h5>
+                                <div className={"how-work name"}>
+                                    <span>Participate actively by entering your bid for the item you're interested in acquiring.</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="col product_card">
+                        <div className="card h-100 product-content">
+                            <strong className={"price"}></strong>
+                            <div className="card-body content">
+                                <h5 className="card-title">Win</h5>
+                                <div className={"how-work name"}>
+                                    <span>Experience the excitement of winning an auction and securing the item at the best possible price.</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     );
