@@ -183,7 +183,7 @@ function Home(props) {
                 </div>
             </div>
             <div className={"how"}>
-                <div className={"auction"}>
+                <div className={"auction head-how"}>
                     <h5>How?</h5>
                     <h2>How <span>It works</span></h2>
                 </div>
