@@ -16,13 +16,9 @@ import Navigation from "../navigation/navigation";
 function Home(props) {
     return (
         <div>
-        <div className={"homecontainer"}>
-        <div className={"home_header"}>
-            <h1 className={"homepara1"}>The best place to Buy and Sell</h1>
-            <p className={"para2"}>The #1 Marketplace for Auction websites and online businesses</p>
-            <button className={"btn btn-primary register"}>Register</button>
-        </div>
-        </div>
+            <Navigation/>
+
+
             <div className={"auction-product"}>
             <div className={"auction"}>
                 <h5>AUCTIONS</h5>
