@@ -178,6 +178,17 @@ border: none;
 .head-how{
   text-align: left;
 }
+.about{
+  display: flex;
+  margin-top: 150px;
+}
+.about_img{
+padding-right: 120px;
+}
+.about_img1{
+  width: 80%;
+  height: 95%;
+}
 
 @keyframes App-logo-spin {
   from {

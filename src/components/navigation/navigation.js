@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from "../../images/logo.png";
 import Buy from "../buy/buy";
+import {Link} from "react-router-dom";
 
 function Navigation(props) {
     return (
@@ -14,8 +15,8 @@ function Navigation(props) {
                             <div className={"nav_logo"}>
                                 <img src={logo}/>
                             </div>
-                            <li className="li"><a href="home.html" className="a">Home</a></li>
-                            <li className="li"><a href={Buy} className="a">Buy</a></li>
+                            <li className="li"><a className="a">Home</a></li>
+                            <li className="li"><Link to="/buy" className="a">Buy</Link></li>
                             <li className="li"><a href="about.html" className="a">Sell</a></li>
                             <li className="li"><a href="about.html" className="a">Services</a></li>
                             <li className="li"><a href="service.html" className="a"> About</a></li>

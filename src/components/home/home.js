@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../images/logo.png'
 import product1 from '../../images/product_1.jpg'
 import product2 from '../../images/product_2.jpg'
 import product3 from '../../images/product_3.jpg'
@@ -8,8 +7,6 @@ import product5 from '../../images/product_5.jpg'
 import product6 from '../../images/product_6.jpg'
 import product7 from '../../images/product_7.jpg'
 import product8 from '../../images/product_8.jpg'
-import Buy from "../buy/buy";
-import buy from "../buy/buy";
 import Navigation from "../navigation/navigation";
 
 
