@@ -161,7 +161,7 @@ function Home(props) {
                 </div>
                 <div className="row row-cols-1 row-cols-md-4 g-4">
                     <div className="col product_card">
-                        <div className="card h-100 product-content">
+                        <div className="card h-100 product-content bid">
                             <strong className={"price"}></strong>
                             <div className="card-body content">
                                 <h5 className="card-title">Register</h5>
@@ -174,7 +174,7 @@ function Home(props) {
                         </div>
                     </div>
                     <div className="col product_card">
-                        <div className="card h-100 product-content">
+                        <div className="card h-100 product-content bid">
                             <strong className={"price"}></strong>
                             <div className="card-body content">
                                 <h5 className="card-title">Buy or Bid</h5>
@@ -187,7 +187,7 @@ function Home(props) {
                         </div>
                     </div>
                     <div className="col product_card">
-                        <div className="card h-100 product-content">
+                        <div className="card h-100 product-content bid">
                             <strong className={"price"}></strong>
                             <div className="card-body content">
                                 <h5 className="card-title">Submit a bid</h5>
@@ -200,7 +200,7 @@ function Home(props) {
                         </div>
                     </div>
                     <div className="col product_card">
-                        <div className="card h-100 product-content">
+                        <div className="card h-100 product-content bid">
                             <strong className={"price"}></strong>
                             <div className="card-body content">
                                 <h5 className="card-title">Win</h5>

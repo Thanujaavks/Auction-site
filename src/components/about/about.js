@@ -1,5 +1,6 @@
 import React from 'react';
 import hero1 from "../../images/hero_1.jpg"
+
 function About(props) {
     return (
         <div>
@@ -14,27 +15,21 @@ function About(props) {
                     </div>
                     <div className={"support"}>
                         <div>
-                        <h3>Fast Support</h3>
-                        <div className={"how-work name"}>
+                            <h3>Fast Support</h3>
                             <span>It's lightning-fast customer support, ensuring that inquiries are satisfying user experience.</span>
-                        </div>
                         </div>
                         <div>
                             <h3>Happy Customers</h3>
-                            <div className={"how-work name"}>
-                                <span>Our Auction Website Delights Customers with Unique Finds and Seamless Bidding Experiences!</span>
-                            </div>
+                            <span>Our Auction Website Delights Customers with Unique Finds and Seamless Bidding Experiences!</span>
                         </div>
                         <div>
                             <h3>24/7 Support</h3>
-                            <div className={"how-work name"}>
-                                <span>Experience peace of mind with our auction website's 24/7 support!</span>
-                            </div>
+                            <span>Experience peace of mind with our auction website's 24/7 support!</span>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
     );
 }
 

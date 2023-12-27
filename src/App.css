@@ -178,16 +178,34 @@ border: none;
 .head-how{
   text-align: left;
 }
+.bid{
+  box-shadow: none;
+}
 .about{
   display: flex;
-  margin-top: 150px;
+  margin-top: 50px;
 }
 .about_img{
-padding-right: 120px;
+padding-right: 10px;
 }
 .about_img1{
   width: 80%;
   height: 95%;
+}
+.support{
+  width: 100%;
+  text-align: left;
+  margin-right: 180px;
+
+}
+.support h3{
+  color: #f37121;
+  font-weight: normal;
+  font-size: 20px;
+}
+.support span{
+  color: #999999;
+  font-weight: normal;
 }
 
 @keyframes App-logo-spin {
