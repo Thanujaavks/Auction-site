@@ -39,10 +39,11 @@ function Client(props) {
                                     <div className={"client_img"}>
                                         <img src={person1} className={"client_img1"}/>
                                         <div>
-                                            <h4>Allison Holmes</h4><h5>Designer</h5>
+                                            <h4>Allison Holmes</h4>
+                                            <h5>Designer</h5>
                                         </div>
                                     </div>
-                                    <div>
+                                    <div className={"client_intro"}>
                                         <p>
                                             “I've been using this auction website for years, and I've never been
                                             disappointed. The variety of items available is impressive, and I've managed
