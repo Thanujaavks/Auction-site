@@ -1,43 +1,67 @@
 import React from 'react';
-import { useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
 import hero from '../../images/hero_1.jpg'
+import person1 from '../../images/person_1.jpg'
+import person2 from '../../images/person_2.jpg'
+import person3 from '../../images/person_3.jpg'
+import person4 from '../../images/person_4.jpg'
+
+
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 function Client(props) {
-    const [index, setIndex] = useState(0);
-    const handleSelect = (selectedIndex) => {
-        setIndex(selectedIndex);
-    };
+
     return (
         <div>
-            <Carousel className={"slide"}>
-            <Carousel.Item className={"client_slide"}>
-                {/*<ExampleCarouselImage text="First slide" />*/}
-                <img src={hero} className={"slide_img"}/>
-                <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                {/*<ExampleCarouselImage text="Second slide" />*/}
-                <img src={hero} className={"slide_img"}/>
-                <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                {/*<ExampleCarouselImage text="Third slide" />*/}
-                <img src={hero} className={"slide_img"} />
-                <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
-                </Carousel.Caption>
-            </Carousel.Item>
-        </Carousel>
+            <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
+                <div className="carousel-inner">
+                    <div className={"slide_color"}>
+                        <div className="carousel-item active">
+                            <span>TESTIMONIALS</span>
+                            <h2>Happy Clients</h2>
+                            <div className={"slide_content"}>
+                                <div>
+                                    <div className={"client_img"}>
+                                        <img src={person1} className={"client_img1"}/>
+                                        <div>
+                                            <h4>Allison Holmes</h4>
+                                            <h5>Designer</h5>
+                                        </div>
+                                    </div>
+                                    <div className={"client_intro"}>
+                                        <p>
+                                            “I've been using this auction website for years, and I've never been
+                                            disappointed. The variety of items available is impressive, and I've managed
+                                            to add some unique pieces to my collection. The user-friendly interface and
+                                            secure payment options make it my go-to platform for all things auctions.”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className={"client_img"}>
+                                        <img src={person1} className={"client_img1"}/>
+                                        <div>
+                                            <h4>Allison Holmes</h4><h5>Designer</h5>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            “I've been using this auction website for years, and I've never been
+                                            disappointed. The variety of items available is impressive, and I've managed
+                                            to add some unique pieces to my collection. The user-friendly interface and
+                                            secure payment options make it my go-to platform for all things auctions.”
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <h5>add</h5>
+                    </div>
+                    <div className="carousel-item">
+                        <h3>avda</h3>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

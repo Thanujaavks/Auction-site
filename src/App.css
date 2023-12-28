@@ -212,9 +212,44 @@ padding-right: 10px;
 .support_content{
   margin-top: 10px;
 }
-.slide{
-  height: 50% !important;
+.carousel-inner{
+  background-image: url("../src/images/hero_1.jpg");
+  background-size: cover;
+  height: 95vh;
 }
+.carousel-item{
+  padding: 70px;
+}
+.slide_color{
+  background: #f37121 !important;
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;
+}
+
+.client_img{
+display: flex;
+}
+.client_img1{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.slide_content{
+  display: flex;
+  margin-top: 80px;
+}
+.client_intro{
+  margin: 50px;
+}
+.client_intro p{
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: left;
+}
+
+
+
 
 @keyframes App-logo-spin {
   from {
