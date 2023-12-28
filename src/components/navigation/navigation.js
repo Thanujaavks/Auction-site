@@ -17,10 +17,10 @@ function Navigation(props) {
                             </div>
                             <li className="li"><a className="a">Home</a></li>
                             <li className="li"><Link to="/buy" className="a">Buy</Link></li>
-                            <li className="li"><a href="about.html" className="a">Sell</a></li>
-                            <li className="li"><a href="about.html" className="a">Services</a></li>
-                            <li className="li"><a href="service.html" className="a"> About</a></li>
-                            <li className="li"><a href="project.html" className="a">Contact</a></li>
+                            <li className="li"><a className="a">Sell</a></li>
+                            <li className="li"><a className="a">Services</a></li>
+                            <li className="li"><a  className="a"> About</a></li>
+                            <li className="li"><a  className="a">Contact</a></li>
                             <div className={"signin"}>
                                 <li><a href={""} className={"a b"}> Sign in/Register</a></li>
                             </div>

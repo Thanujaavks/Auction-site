@@ -14,15 +14,15 @@ function About(props) {
                         <h2>About <span>Us</span></h2>
                     </div>
                     <div className={"support"}>
-                        <div>
+                        <div className={"support_content"}>
                             <h3>Fast Support</h3>
                             <span>It's lightning-fast customer support, ensuring that inquiries are satisfying user experience.</span>
                         </div>
-                        <div>
+                        <div className={"support_content"}>
                             <h3>Happy Customers</h3>
                             <span>Our Auction Website Delights Customers with Unique Finds and Seamless Bidding Experiences!</span>
                         </div>
-                        <div>
+                        <div className={"support_content"}>
                             <h3>24/7 Support</h3>
                             <span>Experience peace of mind with our auction website's 24/7 support!</span>
                         </div>

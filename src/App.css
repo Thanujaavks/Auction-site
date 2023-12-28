@@ -190,22 +190,30 @@ padding-right: 10px;
 }
 .about_img1{
   width: 80%;
-  height: 95%;
+  height: 85%;
 }
 .support{
 
   text-align: left;
+  margin-top: 25px;
   margin-right: 50px;
 
 }
 .support h3{
   color: #f37121;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 21px;
 }
 .support span{
   color: #999999;
   font-weight: normal;
+  font-size: 18px;
+}
+.support_content{
+  margin-top: 10px;
+}
+.slide{
+  height: 50% !important;
 }
 
 @keyframes App-logo-spin {
